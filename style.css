@@ -16,7 +16,7 @@
 body {
     padding: 70px;
     background: rgb(247, 195, 255);
-    background: linear-gradient(155deg, rgba(247, 195, 255, 1) 0%, rgba(49, 44, 255, 1) 100%);
+
 }
 
 .container h3 {
@@ -24,7 +24,7 @@ body {
 }
 
 #submit {
-    background: linear-gradient(155deg, rgba(49, 44, 255, 1) 0%, rgba(247, 195, 255, 1)100%);
+
     border: 1px solid black;
     transition: all liner 0.3s;
 }
