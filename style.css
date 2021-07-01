@@ -15,8 +15,6 @@
 
 body {
     padding: 70px;
-    background: rgb(247, 195, 255);
-
 }
 
 .container h3 {
@@ -24,7 +22,7 @@ body {
 }
 
 #submit {
-
+    background: rgb(247, 195, 255);
     border: 1px solid black;
     transition: all liner 0.3s;
 }
