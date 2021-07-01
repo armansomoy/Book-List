@@ -7,11 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book List</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" />
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="container">
-        <h3>Add Book</h3>
+        <h3>Create Your Own Book List</h3>
         <form id="book-form" action="">
             <div>
                 <label for="title">Title</label>
@@ -26,11 +27,11 @@
                 <input type="text" id="isbn" class="u-full-width">
             </div>
             <div>
-                <input type="submit" id="" value="submit" class="u-full-width">
+                <input type="submit" id="submit" value="submit" class="u-full-width">
             </div>
         </form>
 
-        <table class="u-full-width">
+        <table class="u-full-width book-list-container">
             <thead>
                 <tr>
                     <th>Title</th>
